@@ -20,24 +20,24 @@ My accuracy is at 73% accuracy.
 
 
 # Data Preprocessing
-** What variable(s) are the target(s) for your model?
+* What variable(s) are the target(s) for your model?
 The target for each model was the IS_SUCCESSFUL column. The ultimate goal is to predict which applicants will be successful, so we will utilize all other features to ultimately make a predict
 
-**What variable(s) are the features for your model?
+* What variable(s) are the features for your model?
 The available features for my model are: EIN, NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT
 
-**What variable(s) should be removed from the input data because they are neither targets nor features?
+* What variable(s) should be removed from the input data because they are neither targets nor features?
 In the first model I ran I removed the EIN column and the NAME columns as instructed. In the first attempt at optimization, I added the NAME column back in case there was any bias to any specific organizations, as there where many that where listed multiple times.
 
 # Alternative Solutions
 I believe that experimenting with the number of neurons and hidden layers can get me to an accuracy above 75%. Other strategies that can improve accuracy: change activation functions, implement dropout regularization, adjust learning rate and optimizer, use batch normalization and increase training epochs or adjust batch size.
 
 # Technical Skills
-**Machine learning
-**Deep learning
-**Neural networks
-**Tensorflow
-**Pandas
-**Python
-**Statistical analysis
+* Machine learning
+* Deep learning
+* Neural networks
+* Tensorflow
+* Pandas
+* Python
+* Statistical analysis
 
